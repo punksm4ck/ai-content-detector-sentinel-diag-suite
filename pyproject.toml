@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "ai-sentinel-diagnostics"
+version = "1.0.0"
+description = "Diagnostic & validation suite for AI Sentinel Pro"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = [
+    "requests>=2.31.0",
+    "PyQt5>=5.15.0",
+]
+
+[project.scripts]
+sentinel-diag = "sentinel_diagnostics:main"
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"

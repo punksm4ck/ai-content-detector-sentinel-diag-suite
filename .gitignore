@@ -1,0 +1,59 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.installed.cfg
+lib/
+lib64/
+pip-wheel-metadata/
+share/python-wheels/
+MANIFEST
+
+# === Virtual environments ===
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# === Nuitka build artifacts ===
+*.build/
+*.dist/
+*.onefile-build/
+*.onefile/
+
+# === IDE ===
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# === AI Sentinel runtime data ===
+# (do not commit user config or detection logs)
+~/.config/ai_sentinel/
+
+# === Logs ===
+*.log
+sentinel.log
+
+# === Test artifacts ===
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# === OS ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
